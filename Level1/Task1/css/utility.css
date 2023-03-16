@@ -1,0 +1,72 @@
+.min-h {
+    min-height: 100vh;
+}
+
+.my {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.mx {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+.mybg {
+    background-color: bisque;
+    font-family: cursive;
+    /* color: wheat; */
+    width: 60px;
+    margin-top: 3px;
+    text-align: center;
+    padding: 10px;
+    border-color: 2px solid black;
+    /* border-color: black; */
+    border-radius: 50px;
+
+}
+
+.myhead {
+    margin-top: 120px;
+    /* background: rgb(2,0,36); */
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,26,232,1) 35%, rgba(0,212,255,1) 100%);
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    padding: 9px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.wrap-flex {
+    flex-wrap: wrap;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
