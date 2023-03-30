@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(82, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    /* background-color: lightblue; */
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mydiv {
+    display: flex;
+    text-align: center;
+    background-color: lightyellow;
+    /* width: 50%; */
+    margin: 90px auto;
+    padding: 75px;
+    font-weight: 600;
+    font-size: 28px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+.div2{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+label{
+    font-family: cursive;
+
+}
+.mybtn{
+    background-color: greenyellow; 
+    /* width: 30%; */
+    margin-top: 15px;
+    padding: 6px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+.mybtn:hover{
+    background-color: rgb(7, 238, 72);
+    cursor: pointer;
+    border-color: lightyellow;
+}
+input[type=number] {
+    
+    /* margin-left: 8px; */
+    margin: 1rem 0.5rem;
+    padding: 0.4rem 1rem;
+    width: 40%;
+    color: black;
+}
+
+.mydiv img{
+    width: 500px;
+    height:200px;
+    margin-top: 0px;
+    margin-right: 20px;
+    /* border: 1px solid; */
+}
+form > span
+{
+    font-size: smaller;
+    margin-top: 1rem;
+}
